@@ -1,6 +1,10 @@
 $primary: #3292a6;
 $primary-overlay: rgba(50, 146, 166, 0.8);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin-top: 102px;
    
@@ -61,6 +65,24 @@ body {
     .mb-resp{
         margin-bottom: 1rem;
     }
+    #about{
+        .col{
+            .info-header{
+                margin: auto;
+                width: 80%;
+
+            }
+        }
+    }   
+    #authors{
+        .col{
+            .info-header{
+                margin: auto;
+                width: 80%;
+            }
+        }
+        
+    } 
 }
 @media(max-width: 400px){
     #showcase {
@@ -68,4 +90,5 @@ body {
             font-size: 3rem;
         }
     }
+  
 }
