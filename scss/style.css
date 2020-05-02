@@ -36,6 +36,9 @@ body {
   #showcase h1 {
     font-size: 4rem;
   }
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 400px) {
