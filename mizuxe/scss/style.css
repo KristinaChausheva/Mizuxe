@@ -1,12 +1,12 @@
 body {
-  margin-top: 102px;
+  margin-top: 105px;
 }
 
 .navbar {
   -webkit-box-shadow: 2px 2px 5px #3292a6;
           box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
-  background-color: #fff;
+  background: #fff;
 }
 
 .navbar .nav-item {
@@ -29,6 +29,25 @@ body {
   height: 100%;
 }
 
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#authors img {
+  margin-top: -50px;
+}
+
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+
+#authors .fab {
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px;
@@ -36,11 +55,8 @@ body {
   #showcase h1 {
     font-size: 4rem;
   }
-}
-
-@media (max-width: 400px) {
-  #showcase h1 {
-    font-size: 3rem;
+  .mb-resp {
+    margin-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
